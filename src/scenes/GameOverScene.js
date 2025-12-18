@@ -24,9 +24,9 @@ export default class GameOverScene extends Phaser.Scene {
     //replay button
     this.replayButton = this.add.image(200, 400, 'replay-button').setInteractive().setScale(0.5);
     */
-    this.add.image(200,200,"gameover");
-    this.add.image(200,200,"background");
-    this.add.text(100, 300, "Score: " + this.score, {
+    this.add.image(240,200,"gameover");
+    this.add.image(240,200,"background");
+    this.add.text(120, 300, "Score: " + this.score, {
       fontSize: "32px",
       color: "black",
     });
